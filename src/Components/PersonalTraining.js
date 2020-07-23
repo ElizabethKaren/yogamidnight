@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const PersonalTraining = () => {
  return (
- <div>Personal Training</div>
+    <div>Personal Training</div>
  )
 }
 

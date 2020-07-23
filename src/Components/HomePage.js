@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const HomePage = () => {
  return (
- <h1>Welcome To Yoga Midnight</h1>
+     <h1>Welcome To Yoga Midnight</h1>
  )
 }
 
