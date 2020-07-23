@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+// import React from 'react';
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import React, { Component } from 'react';
+import Nav from './Componenets/Nav'
+import HomePage from './Componenets/HomePage'
+import KungFu from './Componenets/KungFu'
+import MultimediaArt from './Componenets/MultiMediaArt'
+import PersonalTraining from './Componenets/PersonalTraining'
+import Yoga from './Componenets/Yoga'
+import Tarot from './Componenets/Tarot'
 
-function App() {
+export class App extends Component() {
+  
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      <Switch>
+        <Route to='/tarot' render={()=> <Tarot/>} />
+        <Route to='/personaltraining' render={() => <PersonalTraining/> }/>
+        <Route to='/yoga' render={()=> <Yoga />}/>
+        <Route to='/' render={()=> <HomePage/>}/>
+      </Switch>
     </div>
-  );
+   )
+  }
 }
 
 export default App;
