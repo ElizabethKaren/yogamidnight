@@ -2,13 +2,13 @@
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import React, { Component } from 'react';
-import Nav from './Componenets/Nav'
-import HomePage from './Componenets/HomePage'
-import KungFu from './Componenets/KungFu'
-import MultimediaArt from './Componenets/MultiMediaArt'
-import PersonalTraining from './Componenets/PersonalTraining'
-import Yoga from './Componenets/Yoga'
-import Tarot from './Componenets/Tarot'
+import Nav from './Components/Nav';
+import HomePage from './Components/HomePage';
+import KungFu from './Components/KungFu';
+import PersonalTraining from './Components/PersonalTraining';
+import Yoga from './Components/Yoga';
+import Tarot from './Components/Tarot';
+import MultiMediaArt from './Components/MultiMediaArt';
 
 export class App extends Component() {
   
@@ -17,6 +17,8 @@ export class App extends Component() {
     <div>
       <Nav />
       <Switch>
+        <Route to='/art' render={ () => <MultiMediaArt /> }/>
+        <Route to='/kungfu' render={()=> <KungFu /> } />
         <Route to='/tarot' render={()=> <Tarot/>} />
         <Route to='/personaltraining' render={() => <PersonalTraining/> }/>
         <Route to='/yoga' render={()=> <Yoga />}/>

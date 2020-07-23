@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
 const Tarot = () => {
- return <div>Tarot</div>;
+ return (
+    <div>Tarot Page</div>
+ )
 }
 
 export default Tarot

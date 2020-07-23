@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
 const Nav = () => {
- return <div>Menu</div>
+ return (
+ <div>Menu</div>
+ )
 }
 
 export default Nav
