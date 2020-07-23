@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonalTraining = () => {
  return (
-     <div>
+     <div className='ui grid'>
         <div className='ui justified header'>
         <h1 className='ui purple header'>Personal Training</h1>
         </div>

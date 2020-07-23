@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tarot = () => {
  return (
-    <div>
+    <div className='ui grid'>
       <div className='ui justified header'>
       <h1 className='ui purple header'>Tarot</h1>
       </div>

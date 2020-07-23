@@ -18,7 +18,7 @@ export class App extends Component {
   
   render(){
     const homePageImage = this.state.images[Math.floor(Math.random() * this.state.images.length)]
-    console.log(homePageImage)
+  
   return (
     <div className='top-wrap'>
       <Nav/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Yoga = () => {
  return (
-   <div>
+   <div className='ui grid'>
     <div className='ui justified header'>
     <h1 className='ui purple header'>Yoga</h1>
     </div>
