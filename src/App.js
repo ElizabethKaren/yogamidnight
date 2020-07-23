@@ -13,16 +13,17 @@ import MultiMediaArt from './Components/MultiMediaArt';
 export class App extends Component {
   
   render(){
+    
   return (
-    <div>
-      <Nav />
+    <div className='top-wrap'>
+      <Nav/>
       <Switch>
-        <Route to='/kungfu' render={()=> <KungFu/>} />
-        <Route to='/tarot' render={()=> <Tarot/>} />
-        <Route to='/personaltraining' render={() => <PersonalTraining/> }/>
-        <Route to='/yoga' render={()=> <Yoga />}/>
-        <Route to='/art' render={() => <MultiMediaArt/> }/>
-        <Route to='/' render={()=> <HomePage/>}/>
+        <Route path='/kungfu' render={()=> <KungFu/>} />
+        <Route path='/tarot' render={()=> <Tarot/>} />
+        <Route path='/personaltraining' render={() => <PersonalTraining/> } />
+        <Route path='/yoga' render={()=> <Yoga />}/>
+        <Route path='/art' render={() => <MultiMediaArt/> }/>
+        <Route path='/' render={()=> <HomePage/> }/>
       </Switch>
     </div>
    )

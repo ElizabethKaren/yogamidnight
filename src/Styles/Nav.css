@@ -1,0 +1,7 @@
+.nav-bar{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    padding: 8px; 
+}
