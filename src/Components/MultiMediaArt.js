@@ -2,7 +2,14 @@ import React from 'react'
 
 const MultiMediaArt = () => {
   return (
-    <div>My Art</div>
+    <div>
+      <div className='ui justified header'>
+      <h1 className='ui purple header'>My Art</h1>
+      </div>
+      <div className='ui medium image'>
+      <img src='https://images-na.ssl-images-amazon.com/images/I/818gSh6NgAL.jpg' alt='pic'/>
+      </div>
+    </div>
  )
 }
 

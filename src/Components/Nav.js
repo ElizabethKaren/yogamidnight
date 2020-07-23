@@ -4,22 +4,15 @@ import '../Styles/Nav.css'
 
 const Nav = () => {
  return (
-     <div className='ui segment'>
-     <div className='ui justified header'>
-         <div className='ui purple header'>
-         <NavLink to='/'>Home</NavLink>
-         <br></br>
-         <NavLink to='/art'>Multi-Media Art</NavLink>
-         <br></br>
-         <NavLink to='/kungfu'>Kung Fu</NavLink>
-         <br></br>
-         <NavLink to='/tarot'> Tarot</NavLink>
-         <br></br>
-         <NavLink to='/personaltraining'>Personal Training</NavLink>
-         <br></br>
-         <NavLink to='/yoga'>Yoga</NavLink>
-         </div>
-     </div>
+     <div className='nav-container'>
+     <h3 className='ui justified header'>
+         <NavLink to='/' className='ui purple header'>Home </NavLink>
+         <NavLink to='/art' className='ui purple header'>Multi-MediaArt </NavLink>
+         <NavLink to='/kungfu' className='ui purple header'>KungFu </NavLink>
+         <NavLink to='/tarot' className='ui purple header'>Tarot </NavLink>
+         <NavLink to='/personaltraining' className='ui purple header'>Training </NavLink>
+         <NavLink to='/yoga' className='ui purple header'>Yoga </NavLink>
+     </h3>
      </div>
  )
 }
