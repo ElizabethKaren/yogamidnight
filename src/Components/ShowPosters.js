@@ -2,7 +2,8 @@ import React from 'react'
 
 const ShowPosters = () => {
     return (
-        <div className='ui container'>
+        <div className='ui two column centered grid'>
+            <div className='column'>
             <div>
                 <img src='http://2.bp.blogspot.com/-Y6wPt1AXtRM/UCAMFLFnQhI/AAAAAAAAAFE/NE-CTLj5vYs/s280/Valour.jpg' alt='octopus' />
             </div>
@@ -17,6 +18,7 @@ const ShowPosters = () => {
             <br></br>
             <div>
                 <img src='http://1.bp.blogspot.com/-VwBxavrW8_c/TpKd-5ZgmOI/AAAAAAAAABw/GcADX_ks13c/s280/168386_478900760676_682775676_6334047_3481899_n.jpg' alt='pary expo' />
+            </div>
             </div>
         </div>
     )
