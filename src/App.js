@@ -9,6 +9,8 @@ import PersonalTraining from './Components/PersonalTraining';
 import Yoga from './Components/Yoga';
 import Tarot from './Components/Tarot';
 import MultiMediaArt from './Components/MultiMediaArt';
+import ShowPosters from './Components/ShowPosters'
+import Sketches from './Components/Sketches'
 
 export class App extends Component {
 
@@ -23,6 +25,8 @@ export class App extends Component {
     <div className='top-wrap'>
       <Nav/>
       <Switch>
+        <Route path='/sketches' render={()=> <Sketches/> } />
+        <Route path='/posters' render={()=> <ShowPosters/> } />
         <Route path='/kungfu' render={()=> <KungFu/>} />
         <Route path='/tarot' render={()=> <Tarot/>} />
         <Route path='/personaltraining' render={() => <PersonalTraining/> } />
