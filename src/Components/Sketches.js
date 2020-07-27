@@ -2,7 +2,8 @@ import React from 'react'
 
 const Sketches = () => {
     return (
-        <div>
+        <div className='ui two column centered grids'>
+            <div className='column'>
             <div>
                 <img src='http://4.bp.blogspot.com/-6cGkFZX1dfY/Tb-ZzYLn5xI/AAAAAAAAAAY/OypuVb2WYmw/s320/EndGame.jpg' alt='matt'/>
             </div>
@@ -25,6 +26,7 @@ const Sketches = () => {
             <br></br>
             <div>
                 <img src='http://4.bp.blogspot.com/-Qx6v-7VCeHw/Tb-yyyFu2eI/AAAAAAAAAAc/OKs_vqhauwY/s320/Matt.jpg' alt='sketch' /> 
+            </div>
             </div>
         </div>
     )

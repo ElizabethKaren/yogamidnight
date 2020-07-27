@@ -6,7 +6,7 @@ const Yoga = () => {
     <div className='ui justified header'>
     <h1 className='ui purple header'>Yoga</h1>
     </div>
-    <img src='https://www.beyondblackwhite.com/wp-content/uploads/2014/06/40b95a9b40c0bd4947429df9b07c1cd7.jpg' alt='yoga' />
+    <img src='https://www.worldtopupdates.com/wp-content/uploads/2017/08/image-result-12-768x1024.jpeg' alt='yoga' />
    </div>
  )
 }
