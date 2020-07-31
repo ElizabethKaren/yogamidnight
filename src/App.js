@@ -25,7 +25,7 @@ export class App extends Component {
     <div className='top-wrap'>
       <Nav/>
       <Switch>
-        <Route path='/sketches' render={()=> <Sketches/> } />
+        <Route path='/drawings' render={()=> <Sketches/> } />
         <Route path='/posters' render={()=> <ShowPosters/> } />
         <Route path='/kungfu' render={()=> <KungFu/>} />
         <Route path='/tarot' render={()=> <Tarot/>} />
