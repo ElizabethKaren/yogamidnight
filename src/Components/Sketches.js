@@ -2,24 +2,49 @@ import React from 'react'
 import MattDraw1 from '../Images/mattDraw1.jpeg'
 import MattDraw2 from '../Images/mattDraw2.jpg'
 import Tree from '../Images/mattDrawTree.jpg'
+import Dragon from '../Images/mattDragonPic.jpg'
+import GhostCat from '../Images/ghostCatSketch.jpg'
+import People from '../Images/people.jpg'
+import Horse from '../Images/hourseSketch.jpg'
+import Sketch from '../Images/sketch.jpg'
+import '../Styles/Sketches.css'
 
 const Sketches = () => {
     return (
-        <div className='ui two column centered grid'>
-            <div className='column'>
+        <div className='container'>
             <div>
-                <img src={Tree} alt='matt'/>
+            <div className='pic'>
+                <img src={MattDraw1} alt='matt'/>
             </div>
-            <br></br>
-            <div>
+            <div className='pic'>
                 <img src={MattDraw2} alt='matt'/>
             </div>
             <br></br>
-            <div>
-                <img src={MattDraw1} alt='matt'/>
+            <div className='pic'>
+                <img src={Dragon} alt='matt'/>
             </div>
             <br></br>
-            <div>
+            <div className='pic'>
+                <img src={Tree} alt='matt'/>
+            </div>
+            <br></br>
+            <div className='pic'>
+                <img src={GhostCat} alt='matt'/>
+            </div>
+            <br></br>
+            <div className='pic'>
+                <img src={People} alt='matt'/>
+            </div>
+            <br></br>
+            <div className='pic'>
+                <img src={Horse} alt='matt'/>
+            </div>
+            <br></br>
+            <div className='pic'>
+                <img src={Sketch} alt='matt'/>
+            </div>
+            <br></br>
+            {/* <div>
                 <img src='http://4.bp.blogspot.com/-6cGkFZX1dfY/Tb-ZzYLn5xI/AAAAAAAAAAY/OypuVb2WYmw/s320/EndGame.jpg' alt='matt'/>
             </div>
             <br></br>
@@ -41,7 +66,7 @@ const Sketches = () => {
             <br></br>
             <div>
                 <img src='http://4.bp.blogspot.com/-Qx6v-7VCeHw/Tb-yyyFu2eI/AAAAAAAAAAc/OKs_vqhauwY/s320/Matt.jpg' alt='sketch' /> 
-            </div>
+            </div> */}
             </div>
         </div>
     )
