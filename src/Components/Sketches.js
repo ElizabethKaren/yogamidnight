@@ -1,9 +1,24 @@
 import React from 'react'
+import MattDraw1 from '../Images/mattDraw1.jpeg'
+import MattDraw2 from '../Images/mattDraw2.jpg'
+import Tree from '../Images/mattDrawTree.jpg'
 
 const Sketches = () => {
     return (
         <div className='ui two column centered grid'>
             <div className='column'>
+            <div>
+                <img src={Tree} alt='matt'/>
+            </div>
+            <br></br>
+            <div>
+                <img src={MattDraw2} alt='matt'/>
+            </div>
+            <br></br>
+            <div>
+                <img src={MattDraw1} alt='matt'/>
+            </div>
+            <br></br>
             <div>
                 <img src='http://4.bp.blogspot.com/-6cGkFZX1dfY/Tb-ZzYLn5xI/AAAAAAAAAAY/OypuVb2WYmw/s320/EndGame.jpg' alt='matt'/>
             </div>

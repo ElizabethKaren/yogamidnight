@@ -30,6 +30,9 @@ const MultiMediaArt = () => {
         <h3>A Gift For The Darkness (to be projected on a loop)</h3>
         <iframe title='a gift for the darkness' width="560" height="315" src="https://www.youtube.com/embed/X6P6OKUe7MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
       </div>
     </div>
  )
