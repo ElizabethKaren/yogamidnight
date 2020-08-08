@@ -1,9 +1,7 @@
 import React from 'react'
 
 const ContactMe = () => {
-    return ( <
-        div > Contact < div >
-    )
+    return <div > Contact Greg </div>
 }
 
 export default ContactMe
