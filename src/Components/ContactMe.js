@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ContactMe = () => {
-    return <div > Contact Greg </div>
+    return <a href="mailto:setisekhem@gmail.com"><p id='white'>Contact Me</p></a>
 }
 
 export default ContactMe
