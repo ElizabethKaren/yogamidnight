@@ -1,12 +1,13 @@
 import React from 'react'
+import '../Styles/MultiMediaArt.css'
 
 const MultiMediaArt = () => {
   return (
-    <div className='ui grid'>
+    <div>
       <div className='ui justified header'>
       <h1 className='ui purple header'>My Art</h1>
       </div>
-      <div>
+      <div id='centered-vids'>
       <div>
         <br></br>
         <h3>Arboreal Requiem</h3>
