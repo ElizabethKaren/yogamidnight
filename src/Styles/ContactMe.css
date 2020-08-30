@@ -3,5 +3,6 @@
   flex-wrap: wrap;
   flex-direction: column; 
   text-align: center;
-  text-decoration: none; 
+  justify-content: center;
+  text-decoration: none;
 }
