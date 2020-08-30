@@ -8,7 +8,7 @@ const HomePage = (props) => {
             <h1 className='ui purple header'>  Welcome To Yoga Midnight</h1>
              </div>
          </div>
-         <div className='ui huge image'>
+         <div className='ui fluid image'>
          <img src={props.homePageImage} alt='pic' />
          </div>
      </div>
