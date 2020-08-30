@@ -4,8 +4,6 @@ import '../Styles/MultiMediaArt.css'
 const MultiMediaArt = () => {
   return (
     <div>
-      {/* <div className='ui justified header'>
-      </div> */}
       <div id='centered-vids'>
       <div>
       <h1 className='ui purple header'>My Art</h1>

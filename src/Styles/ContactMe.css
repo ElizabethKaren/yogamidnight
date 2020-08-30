@@ -1,3 +1,7 @@
 .center{
-  /* padding-left: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  text-align: center;
+  text-decoration: none; 
 }
