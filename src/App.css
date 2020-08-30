@@ -1,15 +1,14 @@
 .top-wrap{
-  /* background-image: url("https://c.pxhere.com/photos/7a/92/lightning_storm_arizona_monsoon_lightning_storm_electricity_weather_sky-1323288.jpg!d"); */
-  background-color: black;
+  background-image: url('https://img.freepik.com/free-vector/space-with-stars-universe-space-infinity-background_78474-99.jpg?size=626&ext=jpg');
   color: white;
   font-family: 'Anton', sans-serif;
-
 }
 .App {
   text-align: center;
   margin-top: 20px;
   margin-left: 20px;
   font-family: 'Anton', sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/space-with-stars-universe-space-infinity-background_78474-99.jpg?size=626&ext=jpg');
 }
 
 .App-logo {
