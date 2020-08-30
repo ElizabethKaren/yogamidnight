@@ -1,4 +1,6 @@
 .nav-container{
+    text-align: center;
+    text-decoration: none; 
     position: relative;
     display: inline-block;
     width: 100%;
