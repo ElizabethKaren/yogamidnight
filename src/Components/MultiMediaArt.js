@@ -4,11 +4,11 @@ import '../Styles/MultiMediaArt.css'
 const MultiMediaArt = () => {
   return (
     <div>
-      <div className='ui justified header'>
-      <h1 className='ui purple header'>My Art</h1>
-      </div>
+      {/* <div className='ui justified header'>
+      </div> */}
       <div id='centered-vids'>
       <div>
+      <h1 className='ui purple header'>My Art</h1>
         <br></br>
         <h3>Arboreal Requiem</h3>
       <iframe title='arboreal requiem' src="https://player.vimeo.com/video/46844898" width="640" height="472" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
