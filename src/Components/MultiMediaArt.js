@@ -6,8 +6,6 @@ const MultiMediaArt = () => {
     <div>
       <div id='centered-vids'>
       <div>
-      <h1 className='ui purple header'>My Art</h1>
-        <br></br>
         <h3>Arboreal Requiem</h3>
       <iframe title='arboreal requiem' src="https://player.vimeo.com/video/46844898" width="640" height="472" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       <p><a href="https://vimeo.com/46844898">Arboreal Requiem</a> from <a href="https://vimeo.com/user12788476">Matthew Peterson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
