@@ -20,6 +20,8 @@ const ShowPosters = () => {
             <div>
                 <img src='http://1.bp.blogspot.com/-VwBxavrW8_c/TpKd-5ZgmOI/AAAAAAAAABw/GcADX_ks13c/s280/168386_478900760676_682775676_6334047_3481899_n.jpg' alt='pary expo' />
             </div>
+            <br></br>
+            <br></br>
         </div>
     )
 }
