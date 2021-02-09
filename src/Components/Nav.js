@@ -6,14 +6,14 @@ const Nav = () => {
  return (
      <div className='nav-container'>
      <h4>
-         <NavLink to='/' className='ui purple header'>Home </NavLink>&nbsp;&nbsp;&nbsp;
-         <NavLink to='/posters' className='ui purple header'>PosterArt </NavLink>&nbsp;&nbsp;&nbsp;
-         <NavLink to='/drawings' className='ui purple header'>Drawings </NavLink>&nbsp;&nbsp;&nbsp;
-         <NavLink to='/art' className='ui purple header'>Multi-Media Art </NavLink>&nbsp;&nbsp;&nbsp;
-         <NavLink to='/kungfu' className='ui purple header'>KungFu </NavLink>&nbsp;&nbsp;&nbsp;
-         <NavLink to='/tarot' className='ui purple header'>Tarot </NavLink>&nbsp;&nbsp;&nbsp;
-         <NavLink to='/personaltraining' className='ui purple header'>Training </NavLink>&nbsp;
-         <NavLink to='/yoga' className='ui purple header'>Yoga </NavLink>
+         <NavLink to='/' className='headerButton'>Home </NavLink>&nbsp;&nbsp;&nbsp;
+         <NavLink to='/posters' className='headerButton'>PosterArt </NavLink>&nbsp;&nbsp;&nbsp;
+         <NavLink to='/drawings' className='headerButton'>Drawings </NavLink>&nbsp;&nbsp;&nbsp;
+         <NavLink to='/art' className='headerButton'>Multi-Media Art </NavLink>&nbsp;&nbsp;&nbsp;
+         <NavLink to='/kungfu' className='headerButton'>KungFu </NavLink>&nbsp;&nbsp;&nbsp;
+         <NavLink to='/tarot' className='headerButton'>Tarot </NavLink>&nbsp;&nbsp;&nbsp;
+         <NavLink to='/personaltraining' className='headerButton'>Training </NavLink>&nbsp;
+         <NavLink to='/yoga' className='headerButton'>Yoga </NavLink>
      </h4>
      </div>
  )
